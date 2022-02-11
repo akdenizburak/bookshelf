@@ -55,7 +55,7 @@ const LoginScreen = () => {
             behavior='padding'>
             <View style={styles.inputContainer}>
                 <TextInput
-                    placeholder='Email'
+                    placeholder='E-mail'
                     value={email }
                     onChangeText={text =>setEmail(text)}
                     style={styles.input}
